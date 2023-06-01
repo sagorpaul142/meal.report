@@ -41,7 +41,7 @@ const Footer = () => {
                             </div>
 
                             <div className="col-lg-2 col-6 footer-links">
-                                <h4>Our Services</h4>
+                                <h4>Services</h4>
                                 <ul>
                                     <li><i className="bi bi-chevron-right"></i> <Link href="#">Web Design</Link></li>
                                     <li><i className="bi bi-chevron-right"></i> <Link href="#">Web Development</Link>
@@ -55,7 +55,7 @@ const Footer = () => {
                             </div>
 
                             <div className="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-                                <h4>Contact Us</h4>
+                                <h4>Contact</h4>
                                 <p>
                                     A108 Adam Street <br/>
                                     New York, NY 535022<br/>
@@ -72,7 +72,7 @@ const Footer = () => {
 
                 <div className="container">
                     <div className="copyright">
-                        &copy; Copyright <strong><span>Meal.Reports</span></strong>. All Rights Reserved
+                        &copy; Copyright <strong><span>Meal.Report</span></strong>. All Rights Reserved
                     </div>
                     <div className="credits">
                         Designed by <Link href="https://bootstrapmade.com/">BootstrapMade</Link>

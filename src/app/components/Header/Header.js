@@ -31,11 +31,12 @@ const Header = ({mobileView, setMobileView}) => {
                 <nav id="navbar" className="navbar">
                     <ul>
 
-                        <li className="dropdown">
+                        <li>
                             <Link href={'/'}
                                   onClick={() => closeMobileNav()}
+                                  className="nav-link scrollto"
                             >
-                                <span>Home</span>
+                                Home
                             </Link>
                         </li>
 
@@ -57,17 +58,17 @@ const Header = ({mobileView, setMobileView}) => {
                                 Services
                             </a>
                         </li>
-                        <li>
-                            <a
-                                href={'#clients'}
-                                onClick={() => {
-                                    closeMobileNav()
-                                }}
-                                className="nav-link scrollto"
-                            >
-                                Clients
-                            </a>
-                        </li>
+                        {/*<li>*/}
+                        {/*    <a*/}
+                        {/*        href={'#clients'}*/}
+                        {/*        onClick={() => {*/}
+                        {/*            closeMobileNav()*/}
+                        {/*        }}*/}
+                        {/*        className="nav-link scrollto"*/}
+                        {/*    >*/}
+                        {/*        Clients*/}
+                        {/*    </a>*/}
+                        {/*</li>*/}
                         <li>
                             <a
                                 href={'#team'}
@@ -89,6 +90,30 @@ const Header = ({mobileView, setMobileView}) => {
                                 className="nav-link scrollto"
                             >
                                 Contact
+                            </a>
+                        </li>
+
+                        <li>
+                            <a
+                                href={void 0}
+                                onClick={() => {
+                                    closeMobileNav()
+                                }}
+                                className="nav-link scrollto"
+                            >
+                                Login
+                            </a>
+                        </li>
+
+                        <li>
+                            <a
+                                href={void 0}
+                                onClick={() => {
+                                    closeMobileNav()
+                                }}
+                                className="nav-link scrollto"
+                            >
+                                Sign Up
                             </a>
                         </li>
                     </ul>

@@ -60,8 +60,8 @@ h6 {
     font-family: var(--font-primary);
 }
 
-.d_none{
-   display: none;
+.d_none {
+    display: none;
 }
 
 /*--------------------------------------------------------------
@@ -1110,14 +1110,14 @@ section {
     z-index: 1;
     font-weight: 700;
     font-size: 52px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     line-height: 0;
 }
 
 .why-us .section-title h2 {
     font-size: 32px;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: capitalize;
     margin-bottom: 20px;
     padding-bottom: 0;
     color: #3b434a;
@@ -1209,6 +1209,10 @@ section {
     .why-us .item {
         margin: 40px 40px 20px 40px;
     }
+
+    .why-us .section-title span {
+        font-size: 45px;
+    }
 }
 
 .page-about .why-us {
@@ -1239,14 +1243,14 @@ section {
     z-index: 1;
     font-weight: 700;
     font-size: 52px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     line-height: 0;
 }
 
 .team .section-title h2 {
     font-size: 32px;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: capitalize;
     margin-bottom: 20px;
     padding-bottom: 0;
     color: #3b434a;
@@ -1398,14 +1402,14 @@ section {
     z-index: 1;
     font-weight: 700;
     font-size: 52px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     line-height: 0;
 }
 
 .services .section-title h2 {
     font-size: 32px;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: capitalize;
     margin-bottom: 20px;
     padding-bottom: 0;
     color: #3b434a;
@@ -1493,12 +1497,19 @@ section {
     color: #3498db;
 }
 
-.line{
+.line {
     border-color: var(--color-primary);
     border-top-width: thick;
 }
 
 /*     */
+@media (min-width: 576px) and (max-width: 991px) {
+    .more-services .icon-box1 {
+        max-width: 550px;
+        min-width: 535px;
+    }
+}
+
 .more-services .icon-box1 {
     text-align: center;
     padding: 70px 20px 80px 20px;
@@ -1773,14 +1784,14 @@ section {
     z-index: 1;
     font-weight: 700;
     font-size: 52px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     line-height: 0;
 }
 
 .pricing .section-title h2 {
     font-size: 32px;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: capitalize;
     margin-bottom: 20px;
     padding-bottom: 0;
     color: #3b434a;
@@ -1929,14 +1940,14 @@ section {
     z-index: 1;
     font-weight: 700;
     font-size: 52px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     line-height: 0;
 }
 
 .faq .section-title h2 {
     font-size: 32px;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: capitalize;
     margin-bottom: 20px;
     padding-bottom: 0;
     color: #3b434a;
@@ -2059,14 +2070,14 @@ section {
     z-index: 1;
     font-weight: 700;
     font-size: 52px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     line-height: 0;
 }
 
 #clients .section-title h2 {
     font-size: 32px;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: capitalize;
     margin-bottom: 20px;
     padding-bottom: 0;
     color: #3b434a;
@@ -2125,14 +2136,14 @@ section {
     z-index: 1;
     font-weight: 700;
     font-size: 52px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     line-height: 0;
 }
 
 .contact .section-title h2 {
     font-size: 32px;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: capitalize;
     margin-bottom: 20px;
     padding-bottom: 0;
     color: #3b434a;

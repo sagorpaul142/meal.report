@@ -15,8 +15,8 @@ const Clients = () => {
             <div className="container" data-aos="fade-up">
 
                 <div className="section-title">
-                    <span>Our CLients</span>
-                    <h2>Our CLients</h2>
+                    <span>Clients</span>
+                    <h2>Clients</h2>
                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque dere
                         santome nida.</p>
                 </div>

@@ -7,7 +7,6 @@ import Pricing from "@/app/components/Pricing/Pricing";
 import Faq from "@/app/components/Faq/Faq";
 import Team from "@/app/components/Team/Team";
 import Contact from "@/app/components/Contact/Contact";
-import Clients from "@/app/components/Clients/Clients";
 
 export const metadata = {
     title: 'Meal.Report',
@@ -24,7 +23,6 @@ export default function Home() {
             <Pricing/>
             <Faq/>
             <Team/>
-            <Clients/>
             <Contact/>
         </main>
     )

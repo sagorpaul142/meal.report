@@ -6,8 +6,8 @@ const Contact = () => {
             <div className="container">
 
                 <div className="section-title">
-                    <span>Contact Me</span>
-                    <h2>Contact Me</h2>
+                    <span>Contact</span>
+                    <h2>Contact</h2>
                     <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
                 </div>
 
@@ -48,20 +48,20 @@ const Contact = () => {
                     </div>
 
                     <div className="col-lg-6">
-                        <form action="forms/contact.php" method="post" role="form" className="php-email-form">
+                        <form role="form" className="php-email-form">
                             <div className="row">
                                 <div className="col-md-6 form-group">
                                     <input type="text" name="name" className="form-control" id="name"
-                                           placeholder="Your Name" required />
+                                           placeholder="Your Name" required/>
                                 </div>
                                 <div className="col-md-6 form-group mt-3 mt-md-0">
                                     <input type="email" className="form-control" name="email" id="email"
-                                           placeholder="Your Email" required />
+                                           placeholder="Your Email" required/>
                                 </div>
                             </div>
                             <div className="form-group mt-3">
                                 <input type="text" className="form-control" name="subject" id="subject"
-                                       placeholder="Subject" required />
+                                       placeholder="Subject" required/>
                             </div>
                             <div className="form-group mt-3">
                                 <textarea className="form-control" name="message" rows="6" placeholder="Message"

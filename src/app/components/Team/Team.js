@@ -11,8 +11,8 @@ const Team = () => {
             <div className="container" data-aos="fade-up">
 
                 <div className="section-title">
-                    <span>Our Team</span>
-                    <h2>Our Team</h2>
+                    <span>Team</span>
+                    <h2>Team</h2>
                     <p>Architecto nobis eos vel nam quidem vitae temporibus voluptates qui hic deserunt iusto omnis nam
                         voluptas asperiores sequi tenetur dolores incidunt enim voluptatem magnam cumque fuga.</p>
                 </div>

@@ -7,7 +7,7 @@ const Hostel = () => {
             <div className="col-xl-7 order-xl-first order-lg-last order-last">
                 <div className="icon-boxes d-flex flex-column justify-content-center">
                     <div className="row">
-                        <div className="col-lg-6 d-flex align-items-stretch more-services" data-aos="zoom-in"
+                        <div className="col-lg-6 d-flex justify-content-md-center align-items-stretch more-services" data-aos="zoom-in"
                              data-aos-delay="100">
                             <div className="icon-box1 iconbox-blue">
                                 <div className="icon icon1">
@@ -23,9 +23,8 @@ const Hostel = () => {
                             </div>
                         </div>
 
-                        <div className="col-lg-6 d-flex align-items-stretch more-services mt-4 mt-lg-0"
-                             data-aos="zoom-in"
-                             data-aos-delay="200">
+                        <div className="col-lg-6 d-flex justify-content-md-center align-items-stretch more-services mt-4 mt-lg-0"
+                             data-aos="zoom-in" data-aos-delay="200">
                             <div className="icon-box1 iconbox-orange ">
                                 <div className="icon icon1">
                                     <svg width="100" height="100" viewBox="0 0 600 600"
@@ -40,7 +39,7 @@ const Hostel = () => {
                             </div>
                         </div>
 
-                        <div className="col-lg-6 d-flex align-items-stretch more-services mt-4" data-aos="zoom-in"
+                        <div className="col-lg-6 d-flex justify-content-md-center align-items-stretch more-services mt-4" data-aos="zoom-in"
                              data-aos-delay="300">
                             <div className="icon-box1 iconbox-pink">
                                 <div className="icon icon1">
@@ -56,7 +55,7 @@ const Hostel = () => {
                             </div>
                         </div>
 
-                        <div className="col-lg-6 d-flex align-items-stretch more-services mt-4" data-aos="zoom-in"
+                        <div className="col-lg-6 d-flex justify-content-md-center align-items-stretch more-services mt-4" data-aos="zoom-in"
                              data-aos-delay="100">
                             <div className="icon-box1 iconbox-teal">
                                 <div className="icon icon1">

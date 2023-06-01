@@ -93,7 +93,7 @@ const Header = ({mobileView, setMobileView}) => {
                         </li>
                     </ul>
                     <i
-                        className={mobileView ? `bi bi-x mobile-nav-toggle d-none` : `bi bi-list mobile-nav-toggle d-none`}
+                        className={mobileView ? `bi bi-x mobile-nav-toggle d_none` : `bi bi-list mobile-nav-toggle d_none`}
                         onClick={() => {
                             setMobileView(!mobileView)
                         }}

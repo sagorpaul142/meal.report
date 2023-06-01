@@ -60,6 +60,10 @@ h6 {
     font-family: var(--font-primary);
 }
 
+.d_none{
+   display: none;
+}
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -477,7 +481,7 @@ section {
 --------------------------------------------------------------*/
 @media (max-width: 1279px) {
     .navbar {
-        position: fixed;
+        position: fixed !important;
         top: 0;
         left: -100%;
         width: calc(100% - 70px);

@@ -1,6 +1,7 @@
 "use client"
 import {useEffect, useState} from 'react';
 import Link from "next/link";
+import * as Scroll from "react-scroll"
 
 const Header = ({mobileView, setMobileView}) => {
     const [scrollClass, setScrollClass] = useState('');
@@ -41,56 +42,72 @@ const Header = ({mobileView, setMobileView}) => {
                         </li>
 
                         <li>
-                            <a
-                                href={'#about'}
+                            <Scroll.Link
+                                to="hero"
+                                smooth={true}
+                                duration={500}
                                 onClick={() => closeMobileNav()}
                                 className="nav-link scrollto"
                             >
                                 About
-                            </a>
+                            </Scroll.Link>
                         </li>
                         <li>
-                            <a
-                                href={'#services'}
-                                onClick={() => closeMobileNav()}
+                            <Scroll.Link
+                                to="services"
+                                smooth={true}
+                                duration={500}
+                                offset={-50}
+                                onClick={() => {
+                                    closeMobileNav()
+                                }}
                                 className="nav-link scrollto"
                             >
                                 Services
-                            </a>
+                            </Scroll.Link>
                         </li>
                         {/*<li>*/}
-                        {/*    <a*/}
-                        {/*        href={'#clients'}*/}
+                        {/*    <Scroll.Link*/}
+                        {/*        to="clients"*/}
+                        {/*        smooth={true}*/}
+                        {/*        duration={500}*/}
+                        {/*        offset={-50}*/}
                         {/*        onClick={() => {*/}
                         {/*            closeMobileNav()*/}
                         {/*        }}*/}
                         {/*        className="nav-link scrollto"*/}
                         {/*    >*/}
                         {/*        Clients*/}
-                        {/*    </a>*/}
+                        {/*    </Scroll.Link>*/}
                         {/*</li>*/}
                         <li>
-                            <a
-                                href={'#team'}
+                            <Scroll.Link
+                                to="team"
+                                smooth={true}
+                                duration={500}
+                                offset={-50}
                                 onClick={() => {
                                     closeMobileNav()
                                 }}
                                 className="nav-link scrollto"
                             >
                                 Team
-                            </a>
+                            </Scroll.Link>
                         </li>
 
                         <li>
-                            <a
-                                href={'#contact'}
+                            <Scroll.Link
+                                to="contact"
+                                smooth={true}
+                                duration={500}
+                                offset={-50}
                                 onClick={() => {
                                     closeMobileNav()
                                 }}
                                 className="nav-link scrollto"
                             >
                                 Contact
-                            </a>
+                            </Scroll.Link>
                         </li>
 
                         <li>

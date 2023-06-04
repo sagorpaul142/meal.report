@@ -86,7 +86,7 @@ const Team = () => {
                                     <a href=""><i className="bi bi-linkedin"></i></a>
                                 </div>
                                 <h4>Sagor Chandra Paul</h4>
-                                <span>Frontend Lead </span>
+                                <span>Frontend Developer </span>
                             </div>
                         </div>
                     </div>
